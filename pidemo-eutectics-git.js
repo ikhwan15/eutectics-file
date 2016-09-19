@@ -2,7 +2,7 @@
 	b(document).ready(function () {
 		function a(a, d, c) {
 			b(emoRange).html(function () {
-				return b(this).html().replace(/<br ?\/?>(:|;|=|\^)/ig, "<br> $1").replace(a, " <img src='http://ikhwan15.github.com/eutectics-file/emo3/" + d + ".png' class='emo' title='" + c + "' alt='" + c + "' />")
+				return b(this).html().replace(/<br ?\/?>(:|;|=|\^)/ig, "<br> $1").replace(a, " <img src='emo3/" + d + ".png' class='emo' title='" + c + "' alt='" + c + "' />")
 			})
 		}
 
